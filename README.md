@@ -1,13 +1,13 @@
 # IHM-2022-Projet-MOE-COUFFIN-COUDERC-PERRET
 
 # MOA / représentants des utilisateurs
-DA SILVA OLIVEIRA Alexys alexys.dasilvaoliveira@iut-rodez.fr
-SEQUIER Théo theo.sequier@iut-rodez.fr
+- DA SILVA OLIVEIRA Alexys alexys.dasilvaoliveira@iut-rodez.fr
+- SEQUIER Théo theo.sequier@iut-rodez.fr
 
 # MOE / Concepteurs
-COUFFIN Nicolas nicolas.couffin@iut-rodez.fr
-COUDERC Valentin valentin.couderc@iut-rodez.fr
-PERRET Thomas thomas.perret@iut-rodez.fr
+- COUFFIN Nicolas nicolas.couffin@iut-rodez.fr
+- COUDERC Valentin valentin.couderc@iut-rodez.fr
+- PERRET Thomas thomas.perret@iut-rodez.fr
 
 
 # Description générale du projet
