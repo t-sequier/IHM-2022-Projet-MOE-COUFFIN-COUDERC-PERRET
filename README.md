@@ -19,4 +19,4 @@ Le projet est une application de gestion des dépenses qui permettra :
 - de visualiser les dépenses sous forme de liste depuis laquelle on pourra trier   
 	- selon le montant : croissant ou décroissant  
 	- par catégorie  
-	- par pourcentage de dépenses par catégorie  
+	- par pourcentage par rapport au total de toutes les dépenses 
