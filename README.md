@@ -20,4 +20,3 @@ Le projet est une application de gestion des dépenses qui permettra :
 	- le montant croissant ou décroissant  
 	- la catégorie  
 	- pourcentage de dépenses par catégorie  
-	- ajout de dépenses programmées
