@@ -22,4 +22,4 @@ Le projet est une application de gestion des dépenses qui permettra :
 	- par pourcentage par rapport au total de toutes les dépenses 
 
 ## Analyse PACT
-https://docs.google.com/document/d/1QpTaygGFGuEM6300wBdd__JzQpD5qL4-J1D_cqLijek/edit?usp=sharing
+[Consulter le document d'analyse PACT](https://docs.google.com/document/d/1QpTaygGFGuEM6300wBdd__JzQpD5qL4-J1D_cqLijek/edit?usp=sharing)
