@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
          *  on désérialise le fichier XML décriant le menu et on l'associe
          *  au menu argument (celui qui a été activé)
          */
-        new MenuInflater(this).inflate(R.menu.menu_contextuel, menu);
+        new MenuInflater(this).inflate(R.menu.menu_options, menu);
         return super.onCreateOptionsMenu(menu);
     }
 

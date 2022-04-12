@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  menu d'options pour l'application qui gère les cuissons :
-      ajouter une cuisson, rechercher un aliment, rechercher un type de cuisson -->
+<!--  menu contextuel de l'application TempsCuisson (permet de supprimer une cuisson -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
     <item
-        android:id="@+id/menu_liste_depenses"
-        android:title="@string/option_liste_depenses" />
+        android:id="@+id/menuContextuel_modifier"
+        android:title="@string/option_modifier" />
+
     <item
-        android:id="@+id/menu_graphique_depenses"
-        android:title="@string/option_graphique_depenses" />
-    <item
-        android:id="@+id/menu_annuler"
+        android:id="@+id/menuContextuel_annuler"
         android:title="@string/option_annuler" />
 </menu>
