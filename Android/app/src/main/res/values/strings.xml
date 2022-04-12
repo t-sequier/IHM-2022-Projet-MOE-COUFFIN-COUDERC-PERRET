@@ -3,4 +3,5 @@
     <string name="option_liste_depenses">Liste des dépenses</string>
     <string name="option_graphique_depenses">Graphique des dépenses</string>
     <string name="option_annuler">Annuler</string>
+    <string name="titre_ajouter_dep">Ajouter dépense</string>
 </resources>
