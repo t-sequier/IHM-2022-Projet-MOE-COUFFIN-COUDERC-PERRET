@@ -18,6 +18,6 @@
     <string name="prix_decroissant">Prix décroissant</string>
     <string name="prix_croissant">Prix croissant</string>
     <string name="titre_ajouter">Ajouter :</string>
-    <string name="btn_aj_depense">DEPENSE</string>
+    <string name="btn_aj_depense">💲 DEPENSE</string>
     <string name="btn_gerer_cat">Gérer mes catégories</string>
 </resources>
