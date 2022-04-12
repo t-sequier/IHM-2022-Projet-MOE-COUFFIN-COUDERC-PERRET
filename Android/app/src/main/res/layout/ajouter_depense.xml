@@ -2,11 +2,108 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/marge_app">
+    android:layout_margin="@dimen/marge_app"
+    android:stretchColumns="0,1,2,3">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titre_ajouter_dep" />
+        android:text="@string/titre_ajouter_dep"
+        android:textSize="@dimen/taille_titre_popup" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorBlack" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="1"
+            android:text="@string/champ_montant" />
+
+        <EditText
+            android:id="@+id/saisie_montant"
+            android:layout_span="3" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/champ_intitule"
+            android:layout_span="1" />
+
+        <EditText android:layout_span="3" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/champ_description"
+            android:layout_span="1" />
+
+        <EditText android:layout_span="3" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/champ_categorie"
+            android:layout_span="1" />
+
+        <Spinner
+            android:id="@+id/spinner_categorie"
+            android:layout_span="3"
+            android:spinnerMode="dropdown" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/champ_programme"
+            android:layout_span="1" />
+
+        <CheckBox />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/champ_date"
+            android:layout_span="1" />
+
+        <DatePicker
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_span="3" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/champ_cycle"
+            android:layout_span="1" />
+
+        <Spinner
+            android:id="@+id/spinner_cycle"
+            android:layout_span="3"
+            android:spinnerMode="dropdown" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_valider_aj_dep"
+            android:text="@string/valider"
+            android:layout_column="2"
+            android:layout_span="1" />
+
+        <Button
+            android:id="@+id/btn_annuler_aj_dep"
+            android:text="@string/annuler"
+            android:layout_column="3"
+            android:layout_span="1" />
+    </TableRow>
 
 </TableLayout>

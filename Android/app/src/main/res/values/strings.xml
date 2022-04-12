@@ -4,4 +4,13 @@
     <string name="option_graphique_depenses">Graphique des dépenses</string>
     <string name="option_annuler">Annuler</string>
     <string name="titre_ajouter_dep">Ajouter dépense</string>
+    <string name="champ_montant">Montant :</string>
+    <string name="champ_intitule">Intitulé :</string>
+    <string name="champ_description">Description :</string>
+    <string name="champ_categorie">Catégorie :</string>
+    <string name="champ_programme">Programmée :</string>
+    <string name="champ_date">Date :</string>
+    <string name="champ_cycle">Cycle :</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
 </resources>
