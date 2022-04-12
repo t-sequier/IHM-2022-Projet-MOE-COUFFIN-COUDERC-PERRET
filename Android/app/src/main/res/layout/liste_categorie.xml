@@ -4,5 +4,21 @@
     android:layout_height="match_parent"
     android:layout_margin="@dimen/marge_app"
     android:orientation="vertical">
-    
+
+    <TextView
+        android:text="@string/titre_liste_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/taille_titre_popup" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorBlack" />
+
+    <ListView
+        android:id="@+id/liste_view_cat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
