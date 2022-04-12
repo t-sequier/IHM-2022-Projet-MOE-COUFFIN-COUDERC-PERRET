@@ -2,4 +2,6 @@
 <resources>
     <dimen name="marge_app">15dip</dimen>
     <dimen name="taille_titre_popup">30sp</dimen>
+    <dimen name="taille_text_btn">20sp</dimen>
+    <dimen name="marge_espace_btn">350dp</dimen>
 </resources>

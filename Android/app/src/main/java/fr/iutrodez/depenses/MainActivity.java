@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,12 +43,15 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_liste_depenses :  		 // affiche la liste des dépenses
                 //TODO
                 break;
-            case R.id.menu_graphique_depenses:   	// affiche le graphique des dépenses
+            case R.id.menu_graphique_depenses:    // affiche le graphique des dépenses
                 //TODO
                 break;
-            case R.id.menu_annuler :
+            case R.id.menu_annuler:
                 break;
         }
         return (super.onOptionsItemSelected(item));
+    }
+
+    public void ajouterDepense(View view) {
     }
 }

@@ -11,7 +11,13 @@
     <string name="champ_programme">Programmée :</string>
     <string name="champ_date">Date :</string>
     <string name="champ_cycle">Cycle :</string>
-    <string name="valider">Valider</string>
-    <string name="annuler">Annuler</string>
+    <string name="valider">✔ Valider</string>
+    <string name="annuler">❌ Annuler</string>
     <string name="titre_liste_cat">Catégories</string>
+    <string name="titre_filtre">Filtrer par :</string>
+    <string name="prix_decroissant">Prix décroissant</string>
+    <string name="prix_croissant">Prix croissant</string>
+    <string name="titre_ajouter">Ajouter :</string>
+    <string name="btn_aj_depense">DEPENSE</string>
+    <string name="btn_gerer_cat">Gérer mes catégories</string>
 </resources>
