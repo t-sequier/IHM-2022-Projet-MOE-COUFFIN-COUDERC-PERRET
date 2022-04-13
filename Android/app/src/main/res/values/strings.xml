@@ -12,4 +12,8 @@
 
     <string name="buttonValider">✔ Valider</string>
     <string name="buttonAnnuler">❌ Annuler</string>
+
+    <string name="aide_recherche">Saisir la recherche</string>
+    <string name="resultat_recherche">resultat_recherche</string>
+    <string name="menu_recherche">Recherche</string>
 </resources>
