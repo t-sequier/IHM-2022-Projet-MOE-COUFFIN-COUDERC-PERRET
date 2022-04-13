@@ -2,10 +2,25 @@ package fr.iutrodez.depenses;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.database.MatrixCursor;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
+import android.widget.SimpleCursorAdapter;
+
+import com.github.mikephil.charting.charts.HorizontalBarChart;
+import com.github.mikephil.charting.data.BarData;
+import com.github.mikephil.charting.data.BarDataSet;
+import com.github.mikephil.charting.data.BarEntry;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,7 +58,9 @@ public class MainActivity extends AppCompatActivity {
                 //TODO
                 break;
             case R.id.menu_graphique_depenses:   	// affiche le graphique des dépenses
-                //TODO
+                Intent myIntent = new Intent(getBaseContext(), PartDepenses.class);
+                startActivityForResult(myIntent, 0);
+                Log.i("Depense", "Déplacement vers part dépenses");
                 break;
             case R.id.menu_annuler :
                 break;
