@@ -16,4 +16,6 @@
     <string name="aide_recherche">Saisir la recherche</string>
     <string name="resultat_recherche">resultat_recherche</string>
     <string name="menu_recherche">Recherche</string>
+    <string name="textViewDepenseMois">"Dépenses du mois : "</string>
+    <string name="buttonFiltre">Filtre</string>
 </resources>

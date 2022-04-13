@@ -8,17 +8,21 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView texte;
+    private TextView depenseMois;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         texte = findViewById(R.id.texte);
+        depenseMois = findViewById(R.id.textViewDepenseMois);
+        depenseMois.setText(getString(R.string.textViewDepenseMois) + "1800 €");
 
         /*
          * On récupère un accès à la Toolbar définie dans le fichier layout.
@@ -97,5 +101,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         return (super.onOptionsItemSelected(item));
+    }
+
+    public void filtreAccueil(View view) {
+        setContentView(R.layout.layout_categorie);
+
     }
 }
