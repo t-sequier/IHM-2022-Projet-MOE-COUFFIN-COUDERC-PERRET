@@ -49,5 +49,6 @@
     <string name="menu_recherche">Recherche</string>
     <string name="textViewDepenseMois">"Dépenses du mois : "</string>
     <string name="buttonFiltre">Filtre</string>
+    <string name="option_supprimer">Supprimer</string>
 
 </resources>

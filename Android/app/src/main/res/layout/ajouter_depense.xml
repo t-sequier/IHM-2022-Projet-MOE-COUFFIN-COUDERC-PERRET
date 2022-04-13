@@ -91,4 +91,5 @@
             android:entries="@array/cycle"
             android:spinnerMode="dropdown" />
     </TableRow>
+
 </TableLayout>

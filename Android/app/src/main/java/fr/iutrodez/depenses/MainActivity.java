@@ -5,13 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
+import android.widget.AdapterView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         */
         Toolbar maBarreOutil = findViewById(R.id.ma_tool_bar);
         setSupportActionBar(maBarreOutil);
+
     }
 
     /**
@@ -133,8 +136,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //Méthodes Bouchon pour afficher l'accueil et le menu dépliant de la page d'accueil
     public void filtreAccueil(View view) {
-        setContentView(R.layout.layout_categorie);
+        setContentView(R.layout.filtre_accueil);
 
+    }
+
+    public void retourAccueil(View view) {
+        setContentView(R.layout.activity_main);
     }
 }
