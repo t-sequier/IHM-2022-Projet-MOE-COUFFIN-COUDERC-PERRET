@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_recherche"
+        android:title="@string/menu_recherche"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/menu_aide"
+        android:title="Aide"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_liste_depenses"
+        android:title="@string/option_liste_depenses"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_graphique_depenses"
+        android:title="@string/option_graphique_depenses"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_annuler"
+        android:title="@string/option_annuler"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+
+</menu>

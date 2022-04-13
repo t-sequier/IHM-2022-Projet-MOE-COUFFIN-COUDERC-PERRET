@@ -2,7 +2,10 @@
     <string name="app_name">Depenses</string>
     <string name="option_liste_depenses">Liste des dépenses</string>
     <string name="option_graphique_depenses">Graphique des dépenses</string>
+
+    <string name="option_modifier">Modifier</string>
     <string name="option_annuler">Annuler</string>
+
     <string name="titre_ajouter_dep">Ajouter dépense</string>
     <string name="champ_montant">Montant :</string>
     <string name="champ_intitule">Intitulé :</string>
@@ -33,5 +36,18 @@
         <item>Mensuel</item>
         <item>Hebdomadaire</item>
     </string-array>
+
+    <string name="categorie_nom">Nom</string>
+    <string name="categorie_couleur">🎨 Couleur</string>
+    <string name="categorie_icone">Icônes</string>
+
+    <string name="buttonValider">✔ Valider</string>
+    <string name="buttonAnnuler">❌ Annuler</string>
+
+    <string name="aide_recherche">Saisir la recherche</string>
+    <string name="resultat_recherche">resultat_recherche</string>
+    <string name="menu_recherche">Recherche</string>
+    <string name="textViewDepenseMois">"Dépenses du mois : "</string>
+    <string name="buttonFiltre">Filtre</string>
 
 </resources>
