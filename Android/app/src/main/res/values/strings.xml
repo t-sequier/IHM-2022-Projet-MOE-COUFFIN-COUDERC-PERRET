@@ -37,6 +37,15 @@
         <item>Hebdomadaire</item>
     </string-array>
 
+    <string-array name="couleurs">
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Jaune</item>
+        <item>Bleu</item>
+        <item>Orange</item>
+        <item>Rouge</item>
+    </string-array>
+
     <string name="categorie_nom">Nom</string>
     <string name="categorie_couleur">🎨 Couleur</string>
     <string name="categorie_icone">Icônes</string>
@@ -45,9 +54,10 @@
     <string name="buttonAnnuler">❌ Annuler</string>
 
     <string name="aide_recherche">Saisir la recherche</string>
-    <string name="resultat_recherche">resultat_recherche</string>
+    <string name="resultat_recherche">Resultats pour </string>
     <string name="menu_recherche">Recherche</string>
     <string name="textViewDepenseMois">"Dépenses du mois : "</string>
     <string name="buttonFiltre">Filtre</string>
+    <string name="titre_categorie">Catégorie</string>
 
 </resources>

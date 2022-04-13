@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         texte = findViewById(R.id.texte);
         depenseMois = findViewById(R.id.textViewDepenseMois);
-        depenseMois.setText(getString(R.string.textViewDepenseMois) + "1800 €");
+        depenseMois.setText(getString(R.string.textViewDepenseMois) + "369 €");
 
         /*
          * On récupère un accès à la Toolbar définie dans le fichier layout.
@@ -136,5 +136,13 @@ public class MainActivity extends AppCompatActivity {
     public void filtreAccueil(View view) {
         setContentView(R.layout.layout_categorie);
 
+    }
+
+    public void ajouterCategorie(View view) {
+        setContentView(R.layout.layout_categorie);
+    }
+
+    public void fermerEcran(View view) {
+        finish();
     }
 }
