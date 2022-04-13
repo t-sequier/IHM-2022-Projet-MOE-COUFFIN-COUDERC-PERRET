@@ -55,6 +55,7 @@
         <Spinner
             android:id="@+id/spinner_categorie"
             android:layout_span="3"
+            android:entries="@array/categories"
             android:spinnerMode="dropdown" />
     </TableRow>
 
@@ -73,9 +74,8 @@
             android:text="@string/champ_date"
             android:layout_span="1" />
 
-        <DatePicker
-            android:datePickerMode="spinner"
-            android:calendarViewShown="false"
+        <EditText
+            android:inputType="date"
             android:layout_span="3" />
     </TableRow>
 
@@ -88,22 +88,7 @@
         <Spinner
             android:id="@+id/spinner_cycle"
             android:layout_span="3"
+            android:entries="@array/cycle"
             android:spinnerMode="dropdown" />
     </TableRow>
-
-    <TableRow>
-
-        <Button
-            android:id="@+id/btn_valider_aj_dep"
-            android:text="@string/valider"
-            android:layout_column="2"
-            android:layout_span="1" />
-
-        <Button
-            android:id="@+id/btn_annuler_aj_dep"
-            android:text="@string/annuler"
-            android:layout_column="3"
-            android:layout_span="1" />
-    </TableRow>
-
 </TableLayout>

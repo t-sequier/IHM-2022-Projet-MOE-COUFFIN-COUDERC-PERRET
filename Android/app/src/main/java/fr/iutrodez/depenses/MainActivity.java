@@ -1,19 +1,22 @@
 package fr.iutrodez.depenses;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.filtre_accueil);
     }
 
     /**
@@ -53,5 +56,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ajouterDepense(View view) {
+        final View boiteSaisie = getLayoutInflater().inflate(R.layout.ajouter_depense, null);
+
+        new AlertDialog.Builder(this)
+                .setView(boiteSaisie)
+                .setPositiveButton(getResources().getString(R.string.valider), null)
+                .setNegativeButton(getResources().getString(R.string.annuler), null)
+                .show();
+    }
+
+    /**
+     * Appel la popup permettant de gérer les catégories
+     *
+     * @param view de l'application
+     */
+    public void gererCategorie(View view) {
+        final View boiteSaisie = getLayoutInflater().inflate(R.layout.liste_categorie, null);
+
+        new AlertDialog.Builder(this)
+                .setView(boiteSaisie)
+                .setPositiveButton(getResources().getString(R.string.valider), null)
+                .setNegativeButton(getResources().getString(R.string.annuler), null)
+                .show();
+
     }
 }

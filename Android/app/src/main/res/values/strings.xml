@@ -20,4 +20,18 @@
     <string name="titre_ajouter">Ajouter :</string>
     <string name="btn_aj_depense">💲 DEPENSE</string>
     <string name="btn_gerer_cat">Gérer mes catégories</string>
+
+    <string-array name="categories">
+        <item>Escence</item>
+        <item>Nourriture</item>
+        <item>Loisir</item>
+        <item>Factures</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="cycle">
+        <item>Mensuel</item>
+        <item>Hebdomadaire</item>
+    </string-array>
+
 </resources>

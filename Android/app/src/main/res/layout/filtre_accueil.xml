@@ -37,13 +37,13 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_aj_depense"
         android:textSize="@dimen/taille_text_btn"
-        android:onClick="ajouterDepense"
-        android:layout_marginBottom="@dimen/marge_espace_btn" />
+        android:onClick="ajouterDepense" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_gerer_cat"
-        android:textSize="@dimen/taille_text_btn" />
+        android:textSize="@dimen/taille_text_btn"
+        android:onClick="gererCategorie" />
 
 </LinearLayout>

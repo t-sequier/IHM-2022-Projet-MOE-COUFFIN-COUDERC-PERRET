@@ -20,5 +20,7 @@
     <ListView
         android:id="@+id/liste_view_cat"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:entries="@array/categories" />
 </LinearLayout>
