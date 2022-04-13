@@ -64,4 +64,17 @@
     <string name="titre_categorie">Catégorie</string>
 
 
+
+    <string name="croissant">Croissant</string>
+    <string name="decroissant">Décroissant</string>
+    <string name="lbl_mensuel">Mensuel :</string>
+    <string name="essence">Essence</string>
+    <string name="nourriture">Nourriture</string>
+    <string name="loisir">Loisir</string>
+    <string name="_5">5%</string>
+    <string name="_15">15%</string>
+    <string name="_30">30%</string>
+    <string name="facture">Facture</string>
+    <string name="_50">50%</string>
+
 </resources>

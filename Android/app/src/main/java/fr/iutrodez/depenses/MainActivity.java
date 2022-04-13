@@ -4,9 +4,16 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
+
+
+import android.content.Intent;
+
+
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import android.view.View;
 import android.widget.TextView;
 
@@ -27,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         /*
          * On récupère un accès à la Toolbar définie dans le fichier layout.
          * On associe cette Toolbar à l'activité courante.
-        */
+         */
         Toolbar maBarreOutil = findViewById(R.id.ma_tool_bar);
         setSupportActionBar(maBarreOutil);
 
@@ -35,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Méthode invoquée à la première activation du menu d'options
+     *
      * @param menuActivite menu d'option activé
      * @return un booléen égal à vrai si le menu a pu être créé
      */
@@ -66,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                         getResources().getString(R.string.resultat_recherche)).append(query));
                 return true;
             }
+
             /**
              * Méthode invoquée quand l'utilisateur modifie le texte de la recherche
              * @param s texte modifie
@@ -88,15 +97,17 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         // selon l'option sélectionnée dans le menu, on réalise le traitement adéquat
-        switch(item.getItemId()) {
-            case R.id.menu_aide :
+        switch (item.getItemId()) {
+            case R.id.menu_aide:
                 //TODO
                 break;
-            case R.id.menu_liste_depenses :  		 // affiche la liste des dépenses
+            case R.id.menu_liste_depenses:         // affiche la liste des dépenses
                 //TODO
                 break;
             case R.id.menu_graphique_depenses:    // affiche le graphique des dépenses
-                //TODO
+                Intent myIntent = new Intent(getBaseContext(), PartDepenses.class);
+                startActivityForResult(myIntent, 0);
+                Log.i("Depense", "Déplacement vers part dépenses");
                 break;
             case R.id.menu_annuler:
                 break;

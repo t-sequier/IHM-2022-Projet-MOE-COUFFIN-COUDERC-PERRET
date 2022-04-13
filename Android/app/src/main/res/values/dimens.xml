@@ -4,4 +4,8 @@
     <dimen name="taille_titre_popup">30sp</dimen>
     <dimen name="taille_text_btn">20sp</dimen>
     <dimen name="marge_espace_btn">350dp</dimen>
+    <dimen name="largeurBtnDep">170dp</dimen>
+    <dimen name="labelSizeDep">25sp</dimen>
+    <dimen name="longueur_liste_graphes">540dp</dimen>
+    <dimen name="largeurProgressBar">200dp</dimen>
 </resources>
