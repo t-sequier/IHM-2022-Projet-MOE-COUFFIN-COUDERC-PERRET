@@ -3,9 +3,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/marge_app"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titre_categorie"
+        android:textSize="@dimen/taille_titre_popup" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorBlack" />
 
     <TableRow
         android:layout_width="match_parent"
@@ -13,16 +26,12 @@
 
         <TextView
             android:id="@+id/textViewNomCategorie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_span="1"
             android:text="@string/categorie_nom" />
 
         <EditText
             android:id="@+id/editTextNomCategorie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
+            android:layout_span="3" />
 
     </TableRow>
 
@@ -32,21 +41,20 @@
 
         <TextView
             android:id="@+id/textViewCouleurCategorie"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_span="1"
             android:text="@string/categorie_couleur" />
 
         <Spinner
             android:id="@+id/spinnerCouleurCategorie"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:entries="@array/couleurs"
+            android:layout_span="3" />
 
     </TableRow>
 
+
     <TextView
         android:id="@+id/textViewIcone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_span="1"
         android:text="@string/categorie_icone" />
 
 
@@ -178,7 +186,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/buttonAnnuler" />
+                android:text="@string/buttonAnnuler"
+                android:onClick="fermerEcran"/>
 
         </LinearLayout>
 
