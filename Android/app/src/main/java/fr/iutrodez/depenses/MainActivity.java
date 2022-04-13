@@ -143,8 +143,4 @@ public class MainActivity extends AppCompatActivity {
     public void ajouterCategorie(View view) {
         setContentView(R.layout.layout_categorie);
     }
-
-    public void fermerEcran(View view) {
-        finish();
-    }
 }
